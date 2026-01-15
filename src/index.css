@@ -1,0 +1,25 @@
+@import '@fontsource/dm-serif-text/index.css';
+
+body {
+  font-family: 'DM Serif Text', serif !important;
+ 
+}
+
+.btn-custom {
+  background-color: #AA5D65 !important; /* color normal */
+  color: #fff !important;
+  transition: background-color 0.5s ease; /* transición suave */
+}
+
+.btn-custom:hover {
+  background-color: #892C47 !important; /* color al pasar el mouse */
+}
+
+.btn-reset{
+  transition: background-color 0.7s ease;
+}
+.btn-reset:hover{
+  background-color: #B59E8C;
+  color: #fff !important;
+}
+
